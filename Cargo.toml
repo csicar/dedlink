@@ -1,0 +1,14 @@
+[package]
+name = "dedlink"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.72"
+clap = { version = "4.3.21", features = ["derive"] }
+pathdiff = "0.2.1"
+sha2 = "0.10.7"
+tokio = { version = "1.31.0", features = ["full"] }
+walkdir = "2.3.3"
