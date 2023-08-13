@@ -55,7 +55,7 @@
 
         inherit
           stdenv
-          nativeBuildInputs
+          nativeBuildInputs;
       };
 
       devShells.default = (pkgs.mkShell.override { inherit stdenv; }) {
